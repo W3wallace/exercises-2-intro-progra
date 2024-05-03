@@ -18,10 +18,10 @@ void exercise_2(string s1) {
   for(int i = 0 ; i <= s1.size(); ++i ){
     char caracter;
     caracter = s1[i];
-    if(caracter != " ") {
+    if(caracter != ' ') {
       word = word + caracter;
     }
-    else if(caracter == " "){
+    else if(caracter == ' '){
       cout << "[" << word << "]" << endl;
     }
   }
