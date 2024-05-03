@@ -23,6 +23,7 @@ void exercise_2(string s1) {
     }
     else if(caracter == ' '){
       cout << "[" << word << "]" << endl;
+      word= "";
     }
   }
 }
