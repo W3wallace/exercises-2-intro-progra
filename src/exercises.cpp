@@ -95,9 +95,9 @@ void exercise_7(int n) {
 
 
 void exercise_8(string s) {
-  int s_size = s.s_size();
+  int size = s.size();
   string s_s;
-  for(int i = 0; s_size - 1 >= i ; ++i){
+  for(int i = 0; size - 1 >= i ; ++i){
     char s_letra = s[i];
     if(s_letra != ' '){
       s_s = s_s + s_letra;
