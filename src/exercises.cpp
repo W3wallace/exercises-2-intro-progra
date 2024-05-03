@@ -50,6 +50,17 @@ void exercise_9(string s) {
       ++cantidad;
     }
   }
+  switch(cantidad){
+    case 0:
+    cout <<-2 << endl;
+    break;
+    case 1:
+    cout << -1 << endl;
+    break;
+    case 2:
+    cout << segundos << endl;
+    break;
+  }
 }
 
 int exercise_10(int a, int b) {
