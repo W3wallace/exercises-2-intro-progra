@@ -25,7 +25,9 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-  // TODO: YOUR CODE HERE
+  
+
+  
 }
 
 int exercise_6(int n) {
@@ -34,7 +36,14 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-  // TODO: YOUR CODE HERE
+  int n = 3;
+  double result;
+  for(int i = 1; i <= n; i++){
+    result += pow((-1),i + 1)/i;
+  }
+  cout << result << endl;
+  return 0;
+  }
 }
 
 void exercise_8(string s) {
