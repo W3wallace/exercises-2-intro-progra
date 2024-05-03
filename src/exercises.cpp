@@ -127,7 +127,7 @@ int exercise_10(int a, int b) {
 
 void exercise_11() {
   double UI = 1;
-  cout << "UO = 1" << endl;
+  cout << "U0 = 1" << endl;
   for(int i = 1; 10 >=i; ++i){
     double result = UI/( i + 1);
     cout << "U" << i << " - " << UI << endl;
