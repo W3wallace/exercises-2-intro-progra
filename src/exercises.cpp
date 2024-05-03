@@ -13,21 +13,7 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-  int number1_size = s1.size();
-  string number2;
-  int i = 0;
-  while(i <= number1_size){
-    char practice_char = s1[1];
-
-    if(practice_char == ' ' || i == number1_size && s1 != "") {
-      cout << '[' << number2 << ']'<< endl;
-      number2 = "";
-    }
-    else {
-      number2 = number2 + practice_char;
-    }
-    ++i;
-  }
+  
 }
 
 void exercise_3(string s1) {
@@ -56,7 +42,14 @@ void exercise_8(string s) {
 }
 
 void exercise_9(string s) {
-  // TODO: YOUR CODE HERE
+  int cantidad = 0;
+  int segundos = 0;
+  for(int i = 0; i <= s.size(); ++i){
+    if(s[i] == 'f'){
+      segundos = i;
+      ++cantidad;
+    }
+  }
 }
 
 int exercise_10(int a, int b) {
