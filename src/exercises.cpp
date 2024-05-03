@@ -15,7 +15,7 @@ void exercise_1(string s1) {
 void exercise_2(string s1) {
   string word;
   word = "";
-  for(int i = 0 ; i <= s1.size(); ++i ){
+  for(int i = 0 ; i <= s1.size(); i++ ){
     char caracter;
     caracter = s1[i];
     if(caracter != ' ') {
