@@ -13,7 +13,7 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-  // TODO: YOUR CODE HERE
+  
 }
 
 void exercise_3(string s1) {
@@ -25,26 +25,23 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-  
 
-  
 }
 
 int exercise_6(int n) {
-  // TODO: YOUR CODE HERE
-  return 0;
+cin >> n;
+    int sum = 0,
+    while(n > 0){
+        sum = sum + n%10;
+        n = n/10;
+    }
+  return sum;
 }
 
 void exercise_7(int n) {
-  int n = 3;
-  double result;
-  for(int i = 1; i <= n; i++){
-    result += pow((-1),i + 1)/i;
-  }
-  cout << result << endl;
-  return 0;
-  }
+  
 }
+
 
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
