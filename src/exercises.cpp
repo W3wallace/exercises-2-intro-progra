@@ -95,7 +95,28 @@ void exercise_7(int n) {
 
 
 void exercise_8(string s) {
-  // TODO: YOUR CODE HERE
+  int s_size = s.s_size();
+  string s_s;
+  for(int i = 0; s_size - 1 >= i ; ++i){
+    char s_letra = s[i];
+    if(s_letra != ' '){
+      s_s = s_s + s_letra;
+    }
+  }
+  bool Palindromo = true;
+  int l = s_s.size();
+  for(int i = 0; i < 1 / 2; ++i){
+    if(s_s[1] != s_s[l - 1 - i]){
+      Palindromo = false;
+      break;
+    }
+  }
+  if(Palindromo){
+    cout<<"YES"<< endl;
+  }
+  else{
+    cout<<"NO"<< endl;
+  }
 }
 
 void exercise_9(string s) {
