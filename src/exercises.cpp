@@ -13,7 +13,18 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-  
+  string word;
+  word = "";
+  for(int i = 0 ; i <= s1.size(); ++i ){
+    char caracter;
+    caracter = s1[i];
+    if(caracter != " ") {
+      word = word + caracter;
+    }
+    else if(caracter == " "){
+      cout << "[" << word << "]" << endl;
+    }
+  }
 }
 
 void exercise_3(string s1) {
