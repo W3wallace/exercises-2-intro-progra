@@ -86,7 +86,6 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-
 }
 
 void exercise_7(int n) {
@@ -95,29 +94,9 @@ void exercise_7(int n) {
 
 
 void exercise_8(string s) {
-  int size = s.size();
-  string s_s;
-  for(int i = 0; size - 1 >= i ; ++i){
-    char s_letra = s[i];
-    if(s_letra != ' '){
-      s_s = s_s + s_letra;
-    }
-  }
-  bool Palindromo = true;
-  int l = s_s.size();
-  for(int i = 0; i < 1 / 2; ++i){
-    if(s_s[1] != s_s[l - 1 - i]){
-      Palindromo = false;
-      break;
-    }
-  }
-  if(Palindromo){
-    cout<<"YES"<< endl;
-  }
-  else{
-    cout<<"NO"<< endl;
-  }
+
 }
+  
 
 void exercise_9(string s) {
   int cantidad = 0;
@@ -147,7 +126,13 @@ int exercise_10(int a, int b) {
 }
 
 void exercise_11() {
-  // TODO: YOUR CODE HERE
+  double UI = 1;
+  cout << "UO = 1" << endl;
+  for(int i = 1; 10 >=i; ++i){
+    double result = UI/( i + 1);
+    cout << "U" << i << " - " << UI << endl;
+    UI = result;
+  }
 }
 
 void exercise_12() {
