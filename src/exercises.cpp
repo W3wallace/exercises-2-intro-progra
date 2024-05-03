@@ -13,7 +13,21 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-  
+  int number1_size = s1.size();
+  string number1_word;
+  int i = 0;
+  while(i <= number1_size){
+    char practice_char = s1[1];
+
+    if(practice_char == ' ' || i == number1_size && s1 != "") {
+      cout << '[' << number1_word << ']'<< endl;
+      number1_word = "";
+    }
+    else {
+      number1_word = number1_word + practice_char;
+    }
+    ++i;
+  }
 }
 
 void exercise_3(string s1) {
@@ -29,13 +43,7 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-cin >> n;
-    int sum = 0,
-    while(n > 0){
-        sum = sum + n%10;
-        n = n/10;
-    }
-  return sum;
+
 }
 
 void exercise_7(int n) {
