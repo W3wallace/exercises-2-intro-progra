@@ -14,17 +14,17 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   int number1_size = s1.size();
-  string number1_word;
+  string number2;
   int i = 0;
   while(i <= number1_size){
     char practice_char = s1[1];
 
     if(practice_char == ' ' || i == number1_size && s1 != "") {
-      cout << '[' << number1_word << ']'<< endl;
-      number1_word = "";
+      cout << '[' << number2 << ']'<< endl;
+      number2 = "";
     }
     else {
-      number1_word = number1_word + practice_char;
+      number2 = number2 + practice_char;
     }
     ++i;
   }
